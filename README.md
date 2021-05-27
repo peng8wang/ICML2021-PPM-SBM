@@ -27,8 +27,7 @@ PPM to exactly identify the underlying communities.
   - demo_convergence.m: Output the convergence performance of our method PPM
   - dist_to_GD.m: Compute the distance from an iterate to a ground truth
 
-* In the folder named computational-efficiency, we compare the computational efficiency of our proposed method with GPM, MGD, SDP, and SC on both synthetic and real data sets. 
-  - GPM.m: Implement the two-stage method consisting of power iterations (PIs) + generalized power iterations (GPIs) in Wang et al. (2020). 
+* In the folder named recovery-efficiency-accuracy, we compare the recovery efficiency and accuracy of our proposed method with SDP, SC, and PMLE on both synthetic and real data sets. 
   - test_synthetic.m: Output the results on synthetic data sets
   - test_polbooks.m: Output the results on real data set polbooks
   - test_polblogs.m: Output the results on real data set polblogs
