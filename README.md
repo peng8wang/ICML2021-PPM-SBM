@@ -22,10 +22,14 @@ This package contains 3 experimental tests to output the results in the paper:
 * In the folder named convergence-performance, we conduct the experiments of convergence performance to test the number of iterations needed by our approach
 PPM to exactly identify the underlying communities.
   - demo_convergence.m: Output the convergence performance of our method PPM
-  - dist_to_GD.m: Compute the distance from an iterate to a ground truth, i.e., $'min_{Q \in \Pi_K} \|H-H^* Q\|_F'$.
+  - dist_to_GD.m: Compute the distance from an iterate to a ground truth, i.e., $$min_{Q \in \Pi_K} \|H-H^* Q\|_F$$.
 
 * In the folder named computational-efficiency, we compare the computational efficiency of our proposed method with GPM, MGD, SDP, and SC on both synthetic and real data sets. 
   - GPM.m: Implement the two-stage method consisting of power iterations (PIs) + generalized power iterations (GPIs) in Wang et al. (2020). 
   - test_synthetic.m: Output the results on synthetic data sets
   - test_polbooks.m: Output the results on real data set polbooks
   - test_polblogs.m: Output the results on real data set polblogs
+
+<script type="text/javascript" async
+
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
