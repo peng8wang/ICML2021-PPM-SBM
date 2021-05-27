@@ -32,3 +32,4 @@ PPM to exactly identify the underlying communities.
   - test_polbooks.m: Output the results on real data set polbooks
   - test_polblogs.m: Output the results on real data set polblogs
   - misclassify_points.m: Compute the number of misclassified vertices of an iterate compared to a ground truth 
+  - The folder named Datasets contains three real data sets, plobooks, polblogs and football, which is downloaded from the SuiteSparse Matrix Collection (Davis & Hu, 2011).
